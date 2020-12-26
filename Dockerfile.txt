@@ -1,0 +1,9 @@
+FROM node:latest
+
+WORKDIR /home/app
+USER node
+ENV PORT 3001
+
+EXPOSE 3001
+
+ENTRYPOINT /bin/bash
